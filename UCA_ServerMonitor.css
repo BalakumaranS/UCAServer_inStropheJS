@@ -1,0 +1,162 @@
+body {
+    font-family: Media Gothic;
+	background: #aedfe5 url(images/sky.png) 0 0 repeat-x;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hidden {
+    display: none
+}
+
+#toolbar {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#room-name {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#user1_name {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#user2_name {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#shared_name {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+	color: blue;
+}
+
+#room-topic {
+    font-style: italic;
+}
+
+#chat-area {
+    float: left;
+    width: 800px;
+}
+
+#user1 {
+    height: 320px;
+	/*height: 400px */
+	width: 600px;
+    border: solid 0px #ccc;
+	background: url(images/cloud.png)
+}
+
+#user2 {
+    height: 430px;
+	/*height: 500px */
+	width: 650px;
+    border: solid 0px #ccc;
+	background: url(images/cloud2.png)
+}
+
+#shared {
+    height: 260px;
+	width: 420px;
+    border: solid 0px #ccc;
+	background: url(images/cloud_share.png);
+}
+
+#shared_dev { position: relative; height: 100px; margin: 0; padding: 100; }
+#shared_dev li { position: relative; float: left; cursor: pointer; cursor: hand; list-style: none; margin: 0; padding: 0; width: 100px; height: 50px; }
+#shared_dev li img { height: 70%; width: 70%; }	
+
+#gallery1 { position: relative; height: 100px; margin: 0; padding: 0; }
+#gallery1 li { position: absolute; float: left; cursor: pointer; cursor: hand; list-style: none; margin: 0; padding: 0; width: 100px; height: 100px; }
+#gallery1 li img { height: 70%; width: 70%; }
+
+#gallery2 { position: relative; height: 100px; margin: 0; padding: 0; }
+#gallery2 li { position: absolute; float: left; cursor: pointer; cursor: hand; list-style: none; margin: 0; padding: 0; width: 100px; height: 100px; }
+#gallery2 li img { height: 70%; width: 70%; }
+		
+#participants {
+    float: left;
+    width: 200px;
+    height: 500px;
+    overflow: auto;
+}
+
+#input {
+    width: 95%;
+    font-size: 120%;
+}
+
+.notice {
+    font-style: italic;
+    font-weight: bold;
+    color: #3d3;
+}
+
+.error {
+    color: #d33;
+}
+
+.message {
+    color: #aaa;
+	text-indent: 100px;
+}
+
+.nick {
+    color: #66f;
+}
+
+.self {
+    color: #f66;
+}
+
+.body {
+    background: #aedfe5 url(images/sky.png) 0 0 repeat-x;
+
+					  
+
+}
+
+.delayed {
+    opacity: 0.5;
+}
+
+.private {
+    background-color: #fdd;
+}
+
+.action {
+    color: #333;
+}
+
+.stage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 900px;
+    height: 100%;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.far-clouds { background: transparent url(images/far-clouds.png) 600px 102px repeat-x; }
+.near-clouds { background: transparent url(images/near-clouds.png) 600px 162px repeat-x; }
+
+
+/* .mainContent{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 101;    
+        } */
